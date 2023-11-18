@@ -6,7 +6,6 @@ This is a simple Question Paper Generator application built in Node.js. The appl
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Sending Requests with Hoppscotch](#sending-requests-with-hoppscotch)
 - [File Structure](#file-structure)
 - [License](#license)
 
@@ -52,29 +51,6 @@ This is a simple Question Paper Generator application built in Node.js. The appl
 
    Adjust the `totalMarks` and `difficultyDistribution` as needed.
 
-## Sending Requests with Hoppscotch
-
-[Hoppscotch](https://hoppscotch.io/) is a free and open-source API development tool. You can use it to send requests to your Question Paper Generator API.
-
-1. **Install Hoppscotch:**
-
-   Download and install Hoppscotch from [hoppscotch.io](https://hoppscotch.io/).
-
-2. **Open Hoppscotch:**
-
-   Open Hoppscotch and create a new request.
-
-3. **Configure Request:**
-
-   - Method: POST
-   - URL: `http://localhost:3000/generate-paper`
-   - Headers: Content-Type: application/json
-   - Body: Add your JSON request body.
-
-4. **Send Request:**
-
-   Click the "Send" button to send the request. View the response to see the generated question paper.
-
 ## File Structure
 
 - **`app.js`**: Main application file.
@@ -82,3 +58,10 @@ This is a simple Question Paper Generator application built in Node.js. The appl
 - **`questionGenerator.js`**: Class for generating question papers.
 - **`questions.json`**: JSON file containing the question data.
 - **`package.json`**: Node.js package configuration.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+```
+
+Copy and paste this content into a new file named `README.md` in your project's root directory. Adjust it based on your project details.
